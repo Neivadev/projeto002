@@ -12,7 +12,7 @@ body {
 
 .container {
   background-color: #253c1f;
-  padding: 100px;
+  padding: 60px;
   border-radius: 50% 10% 50% 15%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.22) 0px 4px 6px,
@@ -20,27 +20,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 .group {
-  margin-bottom: 20px;
-}
-
-.group label {
-  margin-bottom: 100%;
-  font: bold;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .group input {
-  width: 100%;
-  padding: 2px;
-  border: 1px solid;
+  width: 250px;
+  padding: 8px;
   border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
 .button {
-  width: 150px; /* Largura do botão */
-  padding: 10px 20px; /* Espaçamento interno */
+  width: 250px;
+  height: 40px;
   background-color: #cbe86b;
   color: #1c140d;
   border-radius: 6px;
@@ -48,12 +47,10 @@ body {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  text-align: center; /* Garante que o texto não fique à esquerda */
-  margin: 0 auto; /* Centraliza o botão no formulário */
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto 0;
 }
 
 .button:hover {
