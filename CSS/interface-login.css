@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #4a793e;
+  background-color: #e5e5e5;
   margin: 0;
   padding: 0;
   display: flex;
@@ -8,12 +8,47 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .container {
-  background-color: #253c1f;
-  padding: 20px;
-  border-radius: 50% 10% 50% 15%;
+  background-color: #6c5b7b;
+  padding: 50px;
+  border-radius: 2%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.22) 0px 4px 6px,
     rgba(0, 0, 0, 0.27) 0px 12px 13px, rgba(0, 0, 0, 0.29) 0px -3px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.group {
+  margin-bottom: 20px;
+}
+
+.group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.group input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #cbe86b;
+  color: #40500b;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #afc95a;
+}
+.lo {
+  color: #fff;
 }
